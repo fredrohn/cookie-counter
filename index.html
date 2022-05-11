@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cookie Clicker</title>
+        <link href="index.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>Count how many cookies you've made!</h1>
+        </header>
+        <main>
+            <div class="container">
+                <section class="counter">
+                    <h2>Cookies Made:</h2>
+                    <h2 id="cookies-made">0</h2>
+                </section>
+    
+               <section class="buttons">
+                    <button id="inc-btn">Cookie Made!</button>
+                    <button id="reset-btn">Save for the day</button>
+               </section>
+               
+               <section class="saved">
+                    <p id="cookies-saved">Cookies Made each Day: </p>
+               </section>
+                
+                <p class="instructions">Instructions: Each time you make a cookie, click the Cookie Made! button to keep track. Click Save when you are done for the day. The cookies made each day: list displays the amount of cookies you made each day</p>
+            </div>
+        </main>
+        <script src="index.js"></script> <!--script tag placed before body as a convention-->
+    </body>
+</html>
